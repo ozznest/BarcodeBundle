@@ -1,13 +1,13 @@
 {
-    "name": "markup/barcode-bundle",
+    "name": "ozznest/barcode-bundle",
     "description": "Barcode generation bundle wrapping Zend barcode component.",
     "keywords": ["barcode"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Douglas Greenshields",
-            "email": "douglas@usemarkup.com"
+            "name": "Olexiy Chuiko",
+            "email": "oznest@i.ua"
         },
         {
             "name": "Markup",
@@ -18,7 +18,7 @@
         "php": ">=7.1",
         "symfony/framework-bundle": "^3.4|^4",
         "laminas/laminas-barcode": "~2.0|~3.0",
-        "imagine/imagine": "~0.6.0",
+        "imagine/imagine": "~0.6.0|^0.7.1",
         "symfony/config": "^3.4|^4"
     },
     "require-dev": {
